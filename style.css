@@ -1,0 +1,112 @@
+/*
+Theme Name: Wide Eye Creative
+Theme URI: http://www.wideeyecreative.com
+Author: Wide Eye Creative
+Author URI: http://www.wideeyecreative.com
+Description: Custom Wide Eye Creative Theme for WordPress
+Version: 1.0
+*/
+
+body {
+  line-height: 28px;
+  font-size: 18px;
+}
+
+#site-header a.logo, #site-footer .top a.brand {
+  background: url('/wp-content/uploads/2015/03/hps_logo2.png') 50% 50% no-repeat;
+  background-size: 100%;
+  margin-left:12px;
+}
+
+.middle-please p {
+  color: #f1f2f6;
+  line-height: 28px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.team-blurb {
+  color: #dee0e6;
+}
+.description p {
+	margin-bottom:20px !important;
+}
+
+#site-footer .top nav ul li a {
+  letter-spacing: .05em;
+}
+
+.grid span.hugefinal {
+	font-weight:500;
+}
+
+a.btn-big-action1 div {
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.36em;
+  color:#fff;
+  text-transform:uppercase;
+}
+
+#accordion span.huge2 {
+	transform:scale(1.75,1.75);
+	-webkit-transform:scale(1.75,1.75);
+	-ms-transform:scale(1.75,1.75);
+	line-height: 48px;
+}
+#accordion .active span.huge2 {
+	transform:scale(1,1);
+	-webkit-transform:scale(1,1);
+	-ms-transform:scale(1,1);
+	line-height: 48px;
+  margin-left: 40px;
+}
+#team #accordion .city {
+  background: #062f66;
+}
+
+#team #accordion .city {
+	height:310px;
+}
+
+.page-id-77 form input, .page-id-77 form textarea {
+  outline: none;
+  box-shadow: none;
+  border: solid 1px #062f66;
+  width: 100%;
+  margin-bottom: 0px;
+  padding: 5px;
+}
+
+#services-top .serviceName {
+  padding-top: 164px;
+}
+
+li.current-menu-item a {
+  color: #1161ab !important;
+}
+.topper-back .image-overlay {
+  opacity: 1;
+}
+.topper-back .name {
+  font-weight: 500;
+  margin-bottom: 34px;
+}
+
+.topper-back .contact-info {
+	color: #dee0e6;
+}
+
+#team #accordion .city .inner.contents a:hover {
+	color:#84b4e1 !important;
+}
+#team #accordion .city:hover {
+  background: #062f66;
+}
+#team #accordion .city.active:hover {
+  background: #1161ab;
+}
+
+.cityText .hugefinal {
+	padding-bottom: 5px;
+}

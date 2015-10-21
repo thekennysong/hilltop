@@ -1,0 +1,197 @@
+/*=================================
+=            VARIABLES            =
+=================================*/
+@btn-learn: #34baff;
+@dark-blue: #083e89;
+
+
+/*=============================
+=            TYPES            =
+=============================*/
+.btn-base-solid {
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0px;
+    transition: all 225ms ease;
+
+    .font-weight-normal();
+    letter-spacing: 0;
+    border: none;
+    -webkit-font-smoothing: antialiased;
+    background: #e3e3e3;
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+}
+
+.btn-base-hollow{
+    .btn-base-solid;
+    background: transparent;
+    border: solid 3px #e3e3e3;
+    border-radius: 0px;
+    color: #fff;
+    text-align: center;
+    //z-index: 10;
+
+    .font-weight-bold();
+    font-size: 12px;
+    letter-spacing: 0.36em;
+    line-height: 38.4px;
+
+}
+.btn-big-action{
+    position: relative;
+    //overflow: hidden;
+    outline: none;
+    box-shadow: none;
+    background: #fff;
+    height: 262px;
+    width: 262px;
+    border-radius: 100%;
+    border: solid 3px #d2d4d5;
+    display: block;
+    &:hover,
+    &:focus{
+        transform: scale(1.05);
+    }
+}
+
+/*==========  The Buttons Homie  ==========*/
+
+.btn-hollow-blueTop{
+    .btn-hollow-blue;
+    color: #fff;
+    //margin-bottom: 108px;
+    &:hover,
+    &:focus{
+        // background: #fff;
+        color: #fff;
+    }
+}
+
+.btn-hollow-blue{
+    .btn-base-hollow;
+    width:362px;
+    height:57px;
+    border: 2px solid @sky-blue;
+    text-align: center;
+    margin: auto;
+    display:block;
+    margin-bottom: 13px;
+    line-height: 53px;
+    color: #042975;
+    &:hover,
+    &:focus{
+        background: @sky-blue;
+        color: #fff;
+        h3.services{
+            color:#fff;
+        }
+    }
+    &:active{
+        background: lighten(@sky-blue, 15%);
+        border-color: lighten(@sky-blue, 15%);
+    }
+}
+
+.btn-big-action1{
+    .btn-big-action;
+    position: relative;
+    outline: none;
+    box-shadow: none;
+    background: #fff;
+    max-height: 262px;
+    width: 262px;
+    border-radius: 100%;
+    border: solid 2px @sky-blue;
+    display: inline-block;
+    margin-bottom: 88px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 118px;
+    &:hover,
+    &:focus{
+        transform: scale(1.2);
+        background: @sky-blue;
+        transition: all 225ms ease;
+
+        .serviceD{
+            visibility: visible;
+            transition: all 225ms ease;
+            display: block;
+            margin: auto;
+
+        }
+        i{
+
+            //transition: all 225ms ease;
+            visibility: hidden;
+        }
+
+    }
+    .fa-university{
+        display: block;
+        line-height: 262px;
+        text-align: center;
+        margin: auto;
+        font-size: 86px;
+        color: @sky-blue;
+    }
+}
+.btn-small-services{
+    position: relative;
+    outline: none;
+    box-shadow: none;
+    background: #fff;
+    max-height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: solid 2px @sky-blue;
+    display: inline-block;
+
+
+    &:hover,
+    &:focus{
+        transform: scale(1.05);
+    }
+        .fa-university{
+        display: block;
+        line-height: 262px;
+        text-align: center;
+        margin: auto;
+        font-size: 40px;
+        color: @sky-blue;
+    }
+}
+
+.btn-hollow-gold2{
+    .btn-base-hollow;
+    width:198px;
+    height:53px;
+    margin-bottom: 100px;
+    border: 2px solid @gold;
+    text-align: center;
+    margin: auto;
+    display:block;
+    font-size: 10px !important;
+    .font-family-proxima-nova();
+    .font-weight-semibold();
+    //margin-bottom: 149px;
+    line-height: 53px;
+    color: #042975;
+    &:hover,
+    &:focus{
+        background: @gold;
+        color: @dark-blue;
+        h3.services{
+            color:#fff;
+        }
+    }
+    &:active{
+        background: lighten(@gold, 15%);
+        border-color: lighten(@gold, 15%);
+    }
+}

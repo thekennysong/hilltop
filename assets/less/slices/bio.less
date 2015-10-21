@@ -1,0 +1,119 @@
+@footer-blue: #1161ab;
+
+.topper-back{
+    background-size: cover;
+    // height: 363px;
+    background: @dark-blue;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    position: relative;
+
+    .image-overlay {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 0;
+        opacity: 0.2;
+    }
+
+    &:after {
+        display: block;
+        content: ' ';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 25px 37.5px 0 37.5px;
+        border-color: #063066 transparent transparent transparent;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        z-index: 1;
+        transform: translateX(-50%);
+    }
+
+    h1 {
+        margin :0 !important;
+    }
+    .lefter{
+        text-align: right;
+    }
+    .righter{
+        text-align: left;
+        // width: 210px;
+
+    }
+
+    .lefter, .righter {
+        a {
+            color: #fff;
+        }
+    }
+    .name{
+        font-size: 60px;
+        margin: auto;
+        text-align: center;
+        //.font-family-good();
+        letter-spacing: 0.01em !important;
+        // margin-top: 50px;
+        .font-weight-light();
+        .font-family-good();
+        // padding-top: 40px;
+    }
+    .partners{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
+        letter-spacing: .3em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
+.fa-chevron-left{
+    font-size: 30px;
+    margin-right: 10px;
+
+}
+.fa-chevron-right{
+    font-size: 25px;
+    transform: translateY(-25%);
+}
+.description{
+        color: @dark-grey !important;
+        margin: auto;
+        margin-bottom: 112px;
+
+}
+.bottom-bio-top{
+    background: @footer-blue;
+    //padding-bottom: 10px;
+    transition: all 225ms ease;
+    &:hover{
+        background: (lighten(@footer-blue, 10%));
+    }
+}
+.bottom-name{
+    color: #fff;
+    .font-family-good();
+    font-size: 50px;
+    letter-spacing: 0.0em;
+    .font-weight-light();
+    padding-bottom: 75px;
+}
+.partners-bottom{
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    //padding-top: 109px;
+    .font-family-proxima-nova();
+    .font-weight-semibold();
+    font-size: 15px;
+    letter-spacing: .66em;
+    padding-top: 75px;
+}
+
+

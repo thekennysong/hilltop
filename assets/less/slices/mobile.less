@@ -1,0 +1,573 @@
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+    #site-footer .top nav ul li a:last-child{
+            padding-right: 0px;
+        }
+    #team #accordion .city .inner.contents hr{
+            transform: translateX(53%) !important;
+        }
+    }
+    @media only screen and (max-width : 992px) {
+        span.hugefinal{
+            font-size: 40px !important;
+        }
+    }
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        .bx-controls-direction a{
+                display: none;
+            }
+        .team-blurb{
+            float: none;
+            height: auto;
+            min-height: none;
+            max-width: 95%;
+            display: block;
+            margin: auto;
+        }
+        #site-header nav ul li a {
+            padding: 0 21px;
+        }
+        #services-top .btn-small-services {
+            margin: 0 6% 9% !important;
+        }
+
+    }
+    @media only screen and (max-width : 940px){
+        #team #accordion .city .inner.contents hr{
+            transform: translateX(27%) !important;
+        }
+
+
+    }
+
+     /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        body {
+            padding-top: 0;
+        }
+        #site-header { position: relative !important; }
+        #site-wrap {
+
+            #site-canvas {
+                position: relative;
+                transition: all 225ms ease;
+                transform: translateX(0);
+            }
+        }
+
+        #call-to-action {
+            background: #062f66 !important;
+        }
+
+        .show-nav #site-wrap #site-canvas {
+            transform: translateX(-255px);
+        }
+        #mobile-nav {
+            display: block;
+            background: #f3f5f7;
+            position: absolute;
+            left: 100%;
+            width: 255px;
+            height: 100%;
+            z-index: 99999999999;
+
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                text-align: center;
+
+                li {
+                    display: block;
+
+                    a {
+                        -webkit-font-smoothing: antialiased;
+                        display: block;
+                        padding: 0;
+                        line-height: 52px;
+                        height: 52px;
+                        font-family: "proxima-nova";
+                        font-size: 12px;
+                        font-weight: 600;
+                        letter-spacing: 0.16em;
+                        color: #586887;
+                        text-transform: uppercase;
+
+                        &:hover { background: #fff; }
+                    }
+                }
+            }
+        }
+        #site-header {
+            nav {
+                display: none;
+            }
+            .toggle-nav {
+
+                right: 0;
+                top: 0;
+                height: 52px;
+                line-height: 52px;
+                width: 52px;
+                text-align: center;
+                .btn-base-solid;
+                background: @gold;
+                .font-weight-semibold();
+                position: absolute;
+                font-size: 24px;
+                color: #586887 !important;
+
+                &:hover{
+                    background: lighten(@gold, 10%);
+                }
+
+                i {
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+        }
+
+
+        #site-footer{
+            ul {
+                transform: rotate(180deg);
+            }
+            ul > li {
+                transform: rotate(-180deg);
+            }
+        }
+        li.contact{
+            transform: translateX(100%);
+        }
+        .wrapper{
+            max-width: 80%;
+        }
+        .btn-hollow-blueTop{
+            paddin-bottom: 100px;
+        }
+        .btn-big-action1{
+            // margin-left: auto;
+            // margin-right: auto;
+        }
+#site-footer .top nav ul li a{
+    padding-left: 0px;
+}
+
+
+/*==========  Footer  ==========*/
+        #site-footer .top a.brand{
+              position: static !important;
+              transform: none !important;
+              margin: 0 auto 24px !important;
+              float: none;
+        }
+        #site-footer .top nav ul li{
+          float: none;
+          text-align: center;
+          //transform: translateX(60%);
+          margin: auto;
+          width: 110px;
+          a{
+            padding-right: 0px;
+            margin: auto;
+            text-align: center;
+          }
+
+        }
+        #site-footer .bottom nav ul li{
+          float: none;
+          text-align: center;
+          width: 75%;
+          margin: auto;
+          width: 110px;
+          a{
+            padding-right: 0px;
+            margin: auto;
+            text-align: center;
+          }
+        }
+        #site-footer .bottom .privacy-terms{
+            padding-right: 0px;
+            margin: auto;
+            text-align: center;
+          }
+        .bottom ul{
+            padding-left: 0px;
+            text-align: center;
+        }
+        #site-footer .bottom .copyright{
+            padding-right: none;
+            margin: none;
+            text-align: none;
+        }
+        a.copy{
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+
+        }
+        #site-footer .bottom ul li{
+            float: none;
+        }
+          .fixing1{
+            width: 100%;
+          }
+          .social-links{
+
+            margin: auto;
+            text-align: center;
+            padding-bottom: 0px;
+            //display: none;
+            .fa{
+                font-size: 12px;
+            }
+          }
+
+        /*==========  Services  ==========*/
+
+        li.contact{
+            transform: none;
+        }
+        .btn-big-action1{
+
+            &:hover{
+                 transform: scale(1.05);
+            }
+        }
+
+ #site-footer .bottom .social-links{
+            padding-right: 0px;
+        }
+
+ /*==========  Our Team Page  ==========*/
+        // #team #accordion .city.active .inner.contents{
+        //     transform: translate(-50%, -110%) !important;
+        //  }
+        #team #accordion .city .inner.contents hr{
+            transform: translateX(20%) !important;
+        }
+
+
+
+        #call-to-action {
+            height: auto !important;
+            padding: 60px 0;
+
+            .contents {
+                height: auto !important;
+                min-height: 0 !important;
+
+                .wrapper {
+                    margin: 0;
+                    padding: 0;
+                    max-width: 100%;
+                    width: 100% !important;
+                    position: static !important;
+                    transform: none !important;
+                }
+            }
+        }
+
+
+
+
+}
+
+    @media only screen and (max-width : 767px){
+        #call-to-action .huge {
+            font-size: 50px !important;
+            border-width: 5px !important;
+        }
+
+        .btn-big-action1{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .serviceName { margin: 0 !important; }
+
+
+        #test .testBod {
+            font-size: 22px !important;
+            line-height: 30px !important;
+        }
+
+        #services-top .btn-small-services {
+            margin-right: auto !important;
+            margin-left: auto !important;
+            margin-bottom: 70px !important;
+            display: block;
+        }
+        #accordion span.huge2{
+            transform: scale(1.5,1.5) !important;
+        }
+
+
+    }
+
+
+@media only screen and (max-width : 550px){
+    #menu-main-menu{
+        display: none;
+
+    }
+  /*==========  Our Team Page  ==========*/
+        .partner-inside{
+            text-align: center;
+        }
+        .money{
+            text-align: center;
+        }
+        .right{
+            width: 100%;
+        }
+        .pad{
+            text-align: center;
+            padding-top: 20px;
+        }
+        .phone{
+            text-align: center;
+            display: block !important;
+        }
+        .fax{
+            text-align: center;
+            display: block;
+        }
+        .inner{
+            .contents{
+                height: 100px !important;
+                text-align: center;
+            }
+        }
+        #team #accordion .city .inner.contents .left{
+            width: 100% !important;
+        }
+}
+
+     /* Extra Small Devices, Phones */
+
+    @media only screen and (max-width : 480px) {
+        /*==========  Call to Action  ==========*/
+#standard .description {
+    padding: 60px 0 0;
+}
+        .wrapper{
+            max-width: 80%;
+        }
+        .btn-hollow-blueTop{
+            paddin-bottom: 100px;
+            width: 85%;
+        }
+        #call-to-action{
+            padding: 0 0 30px;
+             background-size: 100% auto;
+            background-position: center top;
+            // background-attachment: fixed;
+            //
+            //
+            //
+            //
+            h1 {
+                margin: 0 !important;
+            }
+
+            .huge {
+                font-size: 36px !important;
+                border-width: 3px !important;
+                margin: 0;
+            }
+
+            .blurb {
+                font-size: 18px !important;
+                line-height: 26px !important;
+            }
+        }
+
+        .btn-big-action1 {
+            transform: scale(0.9);
+        }
+
+
+
+/*==========  Footer  ==========*/
+        #site-footer .top a.brand{
+            top: 50%;
+            left: 50%;
+            transform: translate;
+            transform: translate(0%,-50%);
+            float: none;
+        }
+        #site-footer .top nav ul li{
+          float: none;
+          text-align: center;
+          //transform: translateX(60%);
+          margin: auto;
+          width: 110px;
+          a{
+            padding-right: 0px;
+            margin: auto;
+            text-align: center;
+          }
+
+        }
+        #site-footer .bottom nav ul li{
+          float: none;
+          text-align: center;
+          width: 75%;
+          margin: auto;
+          width: 110px;
+          a{
+            padding-right: 0px;
+            margin: auto;
+            text-align: center;
+          }
+        }
+        #site-footer .bottom .privacy-terms{
+            padding-right: 0px;
+            margin: auto;
+            text-align: center;
+          }
+        .bottom ul{
+            padding-left: 0px;
+            text-align: center;
+        }
+        #site-footer .bottom .copyright{
+            padding-right: none;
+            margin: none;
+            text-align: none;
+        }
+        a.copy{
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+
+        }
+        #site-footer .bottom ul li{
+            float: none;
+        }
+          .fixing1{
+            width: 100%;
+          }
+        #site-footer .bottom .social-links{
+            padding-right: 0px;
+        }
+
+        /*==========  Services  ==========*/
+
+
+        li.contact{
+            transform: none;
+        }
+        .btn-big-action1{
+            &:hover{
+                 transform: scale(1.05);
+            }
+        }
+    /*==========  Mobile for the partner bio page  ==========*/
+    // .lefter{
+    //     font-size: 16px;
+    // }
+    /*==========  Standard Page  ==========*/
+        #standard{
+            .topper-back{
+                    height: 460px;
+            }
+        }
+
+
+    .topper-back {
+        padding: 50px 0 !important;
+    }
+
+
+        #call-to-action .huge {
+            line-height: 50px !important;
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+        }
+
+
+        #services-top .services-blurb p {
+            font-size: 18px !important;
+            line-height: 25px;
+        }
+
+
+        #services-top .topper-image { padding-top: 70px !important; }
+
+        .topper-back .righter, .topper-back .lefter {
+            width: 100% !important;
+            text-align: center !important;
+        }
+
+        #team #accordion .city .inner.contents hr{
+            transform: translateX(0%) !important;
+        }
+        #accordion span.huge2{
+            transform: scale(1.2,1.2) !important;
+        }
+
+    }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+
+        #test .testBod {
+            font-size: 20px !important;
+            line-height: 26px !important;
+        }
+
+        li.contact{
+            transform: none;
+        }
+
+        #call-to-action{
+            height: 700px;
+        }
+        .btn-hollow-blueTop{
+            width: 95%;
+        }
+        .btn-big-action1{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .btn-hollow-blue{
+          width: 90%;
+        }
+        .brand{
+            transform: translateX(6%);
+            margin: 0;
+        }
+        .social-links{
+            //  position: absolute;
+            //transform: translateY(-100%);
+            transform: translateX(130%);
+            margin: auto;
+            top: 52px;
+            //padding-top: 100;
+        }
+        /*==========  Bio Pages  ==========*/
+
+        /*==========  Services Page  ==========*/
+        #services-top{
+            .topper-image{
+                    height: 500px !important;
+            }
+        }
+        /*==========  Standard Page  ==========*/
+        #standard{
+            .topper-back{
+                    height: 580px;
+            }
+        }
+        #accordion span.huge2{
+            transform: scale(1.0,1.0) !important;
+        }
+    }
+

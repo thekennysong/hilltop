@@ -1,0 +1,122 @@
+@link-color: #485460;
+@link-color-hover: lighten(@link-color, 50%);
+@sky-blue: #0095e2;
+@grey: #f3f5f7;
+@dark-grey: #586887;
+
+
+body{
+    // -webkit-font-smoothing: antialiased;
+    .font-family-proxima-nova();
+    line-height: 32px;
+    font-size: 20px;
+    color: #fff;
+    max-width: 100%;
+    overflow-x: hidden !important;
+    padding-top: 52px;
+    //font-weight: bold;
+}
+
+section, header, footer, main, article, nav, aside {
+    position: relative;
+}
+       #site-wrap {
+            position: relative;
+            overflow: hidden;
+        }
+a {
+    outline: none !important;
+    text-decoration: none !important;
+    color: @link-color;
+    transition: all 225ms ease;
+
+    &a:hover,
+    &a:focus {
+        color: @link-color-hover;
+    }
+}
+
+p{
+    margin-bottom: 0px;
+}
+h1, .h1{
+    text-transform: uppercase;
+    font-size: 73.5px;
+    line-height: 145.86px;
+    letter-spacing: 0.01em;
+    color: #fff; //should be #fff, black for now
+    text-align: center;
+    .font-family-good();
+    .font-weight-light();
+}
+
+    h1{
+        margin-top: 0px;
+        margin-bottom:12px;
+        display: block;
+        text-align: center;
+        color: #fff;
+    }
+    .huge{
+        border-top: solid 7px #fff;
+        border-bottom: solid 7px #fff;
+        display: inline-block;
+        color: #fff;
+        font-size: 73.5px;
+        .font-family-agn3d();
+        line-height: 87px;
+        padding-top: 10px;
+
+    }
+
+h2, .h2{
+    text-transform: uppercase;
+    text-align: center;
+    .font-family-proxima-nova();
+    .font-weight-semibold();
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.66em;
+    color: #fff; //should be #fff, black for now
+    //padding-top: 66px;
+    margin-bottom: 25px;
+}
+h3, .h3{
+    font-size: 12px;
+    text-transform: uppercase;
+    .font-weight-bold();
+}
+span, .span{
+    font-size: 20px;
+    //.font-family-lftetica();
+    .font-weight-normal();
+    text-transform: uppercase;
+    color: #586887;
+}
+/*==========  arrow  ==========*/
+.arrow-down-blue {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 38px 75.5px 0 75.5px;
+    border-color: @new-blue transparent transparent transparent;
+    margin: auto;
+    margin-bottom: 85px;
+}
+.arrow-down-dark-blue {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 38px 75.5px 0 75.5px;
+    border-color: @dark-blue transparent transparent transparent;
+    margin: auto;
+    margin-bottom: 85px;
+}
+.arrow-down-grey{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 38px 75.5px 0 75.5px;
+    border-color: @grey transparent transparent transparent;
+    margin: auto;
+}
